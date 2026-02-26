@@ -1,0 +1,5 @@
+{"level":"info","message":{"duration":"8ms","method":"GET","path":"/health","query":{},"status":404},"timestamp":"2026-02-26T21:43:27.922Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","path":"/health","query":{},"status":404},"timestamp":"2026-02-26T21:44:54.486Z"}
+{"level":"info","message":{"duration":"8ms","method":"GET","params":{},"path":"/health/detailed","query":{},"status":200},"timestamp":"2026-02-26T21:46:10.453Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","path":"/.well-known/appspecific/com.chrome.devtools.json","query":{},"status":404},"timestamp":"2026-02-26T21:46:10.485Z"}
+{"level":"info","message":{"duration":"1ms","method":"GET","path":"/favicon.ico","query":{},"status":404},"timestamp":"2026-02-26T21:46:10.490Z"}

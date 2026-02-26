@@ -17,11 +17,7 @@ app.use(express.static("public"));
 
 mongoose
   .connect(
-    process.env.MONGO_URI || "mongodb://localhost:27017/your-database-name",
-    {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    },
+    process.env.MONGO_URI || "mongodb://localhost:27017/StudentManagementApp  ",
   )
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.error("MongoDB connection error:", err));
@@ -46,9 +42,7 @@ const logger = winston.createLogger({
 });
 
 app.use(
-  morgan(
-    ":method :url :status :response-time ms - :res ms - res[content-length]",
-  ),
+  morgan(":method :url :status :res[content-length] - :response-time ms"),
 );
 
 // API middleware logger
